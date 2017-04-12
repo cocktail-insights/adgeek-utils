@@ -1,0 +1,11 @@
+{
+  "name": "adgeek-utils",
+  "version": "1.0.0",
+  "description": "Common utility functions to be used other adgeek packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Amoah <snamoah@gmail.com>",
+  "license": "ISC"
+}
