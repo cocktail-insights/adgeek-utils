@@ -4,7 +4,7 @@
   "description": "Common utility functions to be used other adgeek packages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape tests/**/*.js"
   },
   "author": "Samuel Amoah <snamoah@gmail.com>",
   "license": "ISC",
