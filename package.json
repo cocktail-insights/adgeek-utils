@@ -9,6 +9,7 @@
   "author": "Samuel Amoah <snamoah@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "tap": "^10.3.2"
+    "tap": "^10.3.2",
+    "tape": "^4.6.3"
   }
 }
