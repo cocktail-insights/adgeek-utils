@@ -2,7 +2,7 @@
   "name": "adgeek-utils",
   "version": "1.0.0",
   "description": "Common utility functions to be used other adgeek packages",
-  "main": "index.js",
+  "main": "./lib/utils.js",
   "scripts": {
     "test": "tape tests/**/*.js"
   },
