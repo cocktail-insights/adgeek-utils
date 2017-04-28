@@ -1,6 +1,6 @@
 {
   "name": "adgeek-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common utility functions to be used other adgeek packages",
   "main": "./lib/utils.js",
   "scripts": {
