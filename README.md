@@ -36,3 +36,29 @@ const queryString = Utils.objectToQueryString({
 
 //=> queryString = 'foo=bar&foo1=bar1'
 ```
+
+### Utils.cloneObject(obj)
+Create a clone of an Object. This function also inherits all it's prototypes. Example:
+```javascript
+//test_schema.js
+import SimpleSchema from 'simple-schema';
+
+
+
+const testSchema = new SimpleSchema({ 
+  id: String,
+  createdAt: Date,
+});
+
+//../index.js
+// We still want to keep testSchema as is so we clone it and extend the fields
+const extendedSchema = Utils.cloneObject(testSchema);
+extendedSchema.extend(new SimpleSchema({updatedAt: Date}));
+```
+
+### Utils.isMobile()
+This is a client side version to check if the app is running on mobile. Example:
+```javascript
+Utils.isMobile()
+//=> true
+```
