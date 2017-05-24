@@ -23,3 +23,19 @@ test('objectToUrlString returns "Anded" key-value pair string', (t) => {
   t.end();
 });
 
+test('hyphenate returns same string', (t) => {
+  const str = 'something';
+
+  const newStr = Utils.hyphenate(str);
+  t.equal(newStr, str);
+  t.end();
+});
+
+test('hyphenate returns lowercased string with hyphens', (t) => {
+  const str = 'Mr. and Mrs. Foo Bar';
+
+  const newStr = Utils.hyphenate(str);
+
+  t.equal(newStr, 'mr-and-mrs-foo-bar');
+  t.end();
+});
